@@ -3,6 +3,7 @@
   max-width: 1280px;
   min-width: 320px;
   padding: 35px 30px;
+  position: relative;
 }
 
 .presentation__title {
@@ -23,8 +24,6 @@
 .presentation__info {
   margin-top: 35px;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -40,6 +39,7 @@
   display: flex;
   gap: 15px;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .presentation__list-item {
@@ -47,4 +47,55 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
+}
+
+@media screen and (max-width: 1023px) {
+  .presentation {
+    padding: 35px 15px;
+  }
+
+  .presentation__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .presentation__list-item {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .presentation__container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .presentation__img {
+    width: 60%;
+  }
+
+  .presentation__list {
+    margin-top: 15px;
+  }
+
+  .presentation__list-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .presentation__list {
+    flex-direction: column;
+  }
+
+  .presentation__title {
+    padding-bottom: 5px;
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
