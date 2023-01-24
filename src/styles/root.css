@@ -1,0 +1,68 @@
+.page {
+  background: -webkit-linear-gradient(90deg, #f9f6f5, #eae4c3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    90deg,
+    #f9f6f5,
+    #eae4c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+}
+
+.page__content {
+  margin: 0 auto;
+  font-family: 'YS Text', Arial, sans-serif;
+  /* max-width: 1440px;
+  min-width: 320px; */
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.button__container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button {
+  margin: 0 auto;
+  padding: 0;
+  width: 288px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type='number']:hover,
+input[type='number']:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
