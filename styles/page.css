@@ -1,8 +1,8 @@
 .page {
-  background: -webkit-linear-gradient(90deg, #f9f6f5, #eae4c3); /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(90deg, #d4d4d4, #eae4c3); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     90deg,
-    #f9f6f5,
+    #d4d4d4,
     #eae4c3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
@@ -10,9 +10,7 @@
 
 .page__content {
   margin: 0 auto;
-  font-family: 'YS Text', Arial, sans-serif;
-  /* max-width: 1440px;
-  min-width: 320px; */
+  font-family: 'Inter', Arial, sans-serif;
   width: 100%;
 }
 

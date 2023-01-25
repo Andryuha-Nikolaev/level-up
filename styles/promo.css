@@ -4,12 +4,14 @@
 }
 
 .promo__title {
+  margin: 0 auto;
+  max-width: 970px;
   padding-bottom: 15px;
   text-align: center;
   font-style: normal;
   font-weight: 700;
-  font-size: 46px;
-  line-height: 50px;
+  font-size: 56px;
+  line-height: 60px;
 }
 
 .promo__video {
@@ -24,7 +26,7 @@
   margin: 0 auto;
   max-width: 1280px;
   min-width: 320px;
-  padding: 15px 30px;
+  padding: 35px 30px;
 }
 
 .promo__content {
@@ -111,9 +113,5 @@
     gap: 15px;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .promo__list-item {
-    text-align: center;
   }
 }

@@ -195,9 +195,7 @@
                   id="name-input"
                   type="text"
                   placeholder="Андрей"
-                  required
-                  minlength="2"
-                  maxlength="40" />
+                  required />
                 <span class="form__input-span">Андрей</span>
               </label>
               <label class="form__field">
@@ -206,12 +204,11 @@
                   name="about"
                   class="form__input"
                   id="about-input"
-                  type="number"
-                  min="0"
-                  placeholder="8 800 800 88 88"
-                  required
-                  minlength="2" />
-                <span class="form__input-span">8 800 800 88 88</span>
+                  type="text"
+                  oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+                  placeholder="88008008080"
+                  required />
+                <span class="form__input-span">88008008080</span>
               </label>
 
               <button type="submit" class="button">Заказать</button>

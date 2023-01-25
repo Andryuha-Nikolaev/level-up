@@ -53,7 +53,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
 }
 
 .about__list-img {
@@ -93,13 +92,6 @@
     font-size: 18px;
     line-height: 22px;
   }
-  /* 
-  .about__img-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-  } */
 
   .about__img {
     width: 70%;
@@ -146,9 +138,6 @@
   .about__list-img {
     width: 80px;
     height: 80px;
-  }
-
-  .about__name {
-    text-align: center;
+    overflow: visible;
   }
 }
