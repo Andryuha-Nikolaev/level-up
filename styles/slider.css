@@ -64,23 +64,19 @@
 }
 
 .itc-slider__btn_prev {
-  /* left: 0; */
   left: 32px;
 }
 
 .itc-slider__btn_next {
-  /* right: 0; */
   right: 32px;
 }
 
 @media screen and (max-width: 1023px) {
   .itc-slider__btn_prev {
-    /* left: 0; */
     left: 17px;
   }
 
   .itc-slider__btn_next {
-    /* right: 0; */
     right: 17px;
   }
 }
@@ -140,6 +136,5 @@
 }
 
 .itc-slider__indicator_active {
-  /* background-color: rgb(255 255 255 / 90%); */
   background-color: black;
 }
