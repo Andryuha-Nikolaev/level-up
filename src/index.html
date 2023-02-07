@@ -2,19 +2,23 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <link rel="stylesheet" href="./styles/index.css" />
+
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/img/favicon.png" type="image/png" />
+
     <title>LevelUp</title>
   </head>
-
-  <body class="page">
-    <div class="page__content">
+  <body>
+    <div class="wrapper">
       <section class="promo">
         <video
           class="promo__video"
           src="./assets/video/video-promo.mp4"
           autoplay
           muted
+          playsinline
           loop></video>
         <div class="promo__container">
           <h1 class="promo__title">Продукт для повышения потенции LevelUp</h1>
@@ -217,8 +221,5 @@
         </div>
       </section>
     </div>
-
-    <script src="./scripts/timer.js" defer></script>
-    <script src="./scripts/slider.js" defer></script>
   </body>
 </html>

@@ -1,0 +1,52 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    max-width: 288px;
+  }
+
+  &__field {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    position: relative;
+  }
+
+  &__input {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+  }
+
+  &__input-span {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    visibility: hidden;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #a0a0a0;
+  }
+
+  &__input:focus + &__input-span {
+    visibility: visible;
+  }
+}
